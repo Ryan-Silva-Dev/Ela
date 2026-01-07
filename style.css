@@ -8,15 +8,15 @@
     margin: 0;
 }
 body{
-    background: linear-gradient(rgb(243, 137, 137), rgb(243, 144, 243));
+    background: radial-gradient(circle, rgb(255, 0, 0), rgb(255, 0, 255) , rgb(0, 0, 0));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 header{
-    background-color: rgba(132, 0, 255, 0.233);
-    height: 150px;
-    display: block;
+    background-color: rgba(132, 0, 255, 0);
+    margin: auto;
+    
     
 }
 h1{
@@ -27,10 +27,14 @@ h1{
 
 }
 section>div{
-    display: block;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+
+}
+section img{
     text-align: center;
     margin: auto;
-    min-width: 20px;
-    min-height: 20px;
-
+    width: 50vw;
+    height: 70vh;
 }
